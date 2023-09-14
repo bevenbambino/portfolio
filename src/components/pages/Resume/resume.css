@@ -1,0 +1,14 @@
+:root {
+    --dark-grey: #393e46;
+    --teal: #4ecca3;
+    --light-grey: #eeeeee;
+}  
+
+.resume {
+    /* margin-top: 56px; */
+    
+}
+
+.card {
+    border-color: var(--teal)!important;
+}

@@ -1,0 +1,19 @@
+:root {
+  --dark-grey: #393e46;
+  --teal: #4ecca3;
+  --light-grey: #eeeeee;
+}
+
+p a {
+  color: var(--teal) !important;
+  
+}
+
+.contact-me {
+  /* margin-top: 56px; */
+}
+
+.btn-primary {
+  background-color: #4ecca3 !important;
+  --bs-btn-border-color: #4ecca3 !important;
+}

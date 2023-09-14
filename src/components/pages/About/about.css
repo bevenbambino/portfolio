@@ -1,0 +1,11 @@
+:root {
+    --dark-grey: #393e46;
+    --teal: #4ecca3;
+    --light-grey: #eeeeee;
+}  
+
+.about-text {
+    border: 1px solid var(--teal);
+    margin: auto;
+    padding: 30px;
+}

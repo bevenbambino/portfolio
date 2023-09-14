@@ -1,0 +1,29 @@
+:root {
+  --dark-grey: #393e46;
+  --teal: #4ecca3;
+  --light-grey: #eeeeee;
+}
+
+.header {
+  width: 100%;
+  /* position: absolute; */
+  top: 0;
+  z-index: 5;
+}
+
+.heading-name {
+  padding-top: 11px;
+}
+
+.nav-pills .nav-item .nav-link {
+  color: var(--teal);
+}
+
+.nav-pills .nav-item .nav-link.active {
+  background-color: var(--teal);
+  color: var(--light-grey);
+}
+
+.nav-link:hover {
+  opacity: 0.7;
+}

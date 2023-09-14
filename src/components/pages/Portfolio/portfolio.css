@@ -1,0 +1,107 @@
+:root {
+    --dark-grey: #393e46;
+    --teal: #4ecca3;
+    --light-grey: #eeeeee;
+}
+
+.portfolio {
+    /* margin-top: 56px; */
+
+}
+
+/* This sets the width, display property, and margin-left for the content element on the page. */
+.content {
+    width: 100%;
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  .blocks,
+  .work-block,
+  .contact-me-block {
+    margin-bottom: 20px;
+    padding: 50px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+    color: #ffffff;
+  }
+  
+  .first-project img {
+    width: 100%;
+  }
+  
+  .blocks h2,
+  .work-block h2,
+  .contact-me-block h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+  }
+  
+  .images {
+    border: solid;
+    border-color: #18122b;
+    border-width: thick;
+  }
+  
+  .info-paragraph {
+    border: solid;
+    border-color: #18122b;
+    border-width: thick;
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  
+  #About-Me {
+    display: flex;
+  }
+  
+  .contacts {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .work-block {
+    display: flex;
+  }
+  
+  .first-project {
+    flex: 1 0 100%;
+  }
+  .section-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .side {
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 500px) {
+    header {
+      display: block;
+      text-align: center; 
+    }
+    nav{
+      /* display: block; */
+      text-align: center;
+    }
+    .blocks, .side, .work-block, .section-projects, .contact-me-block, .contacts{
+      display: block;
+      width: 100%;
+    }
+    h2{
+      width: 100%;
+    }
+    article{
+      width: 100%;
+    }
+    p{
+      width: 100%;
+    }
+    img{
+      width: 100%;
+    }
+  }
